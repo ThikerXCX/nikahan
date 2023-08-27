@@ -7,7 +7,7 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  min-height: 2000px;
+  min-height: 6000px;
 }
 .hero::before {
   content: "";
@@ -19,6 +19,8 @@ body {
   background-image: url(img/bg.png);
   z-index: -1;
   filter: grayscale();
+  background-size: cover;
+  background-position: center;
 }
 .hero {
   position: relative;
@@ -49,6 +51,21 @@ body {
   color: white;
 }
 
+.my-nav {
+}
+.my-nav .navbar-brand,
+.my-nav .offcanvas-title {
+  font-family: "Sacramento", cursive;
+  font-size: 3.2rem;
+  /* font-weight: bold; */
+}
+
+.my-nav .nav-link {
+  text-transform: uppercase;
+}
+
+.home {
+}
 /* response */
 
 /* ?lapotp */
@@ -70,6 +87,10 @@ body {
   .simply-countdown > .simply-section {
     padding: 70px;
     margin: 5px;
+  }
+  .my-nav .nav-link {
+    font-size: 2rem;
+    text-align: center;
   }
 }
 /* hp */
